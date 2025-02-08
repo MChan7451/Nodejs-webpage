@@ -8,7 +8,7 @@ COPY ./ ./
 RUN npm install
 
 # Tell that this image is going to open Port
-EXPOSE 8080
+EXPOSE 8081
 
 #Default command to launch the App
 CMD ["npm", "start"]
